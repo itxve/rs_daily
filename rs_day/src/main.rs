@@ -1,4 +1,4 @@
-use rs_day_one::pln;
+use rs_day_a::pln;
 
 /**
  * 主要入口
