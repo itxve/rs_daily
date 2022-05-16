@@ -1,6 +1,11 @@
-use rs_day_one::ls;
+use rs_day_one::pln;
 
+/**
+ * 主要入口
+ */
+
+// cargo doc --open 查看doc
 fn main() {
-    ls();
+    pln();
     println!("Hello, world!");
 }
