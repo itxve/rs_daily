@@ -32,7 +32,7 @@ impl Node {
         match *self {
             // 不能得到 tail 的所有权，因为 `self` 是借用的；
             // 因此使用一个对 tail 的引用
-            // ref 通过引用绑定
+            // ref 通过引用绑定 ref==& [???]
             // [tail.len()]好像差不多像递归调用
             Self::Cons(_, ref tail) => 1 + tail.len(),
             _ => 0,

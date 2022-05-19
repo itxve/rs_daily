@@ -7,3 +7,6 @@ edition = "2021"
 
 [dependencies]
 rs_day_a = { path = "../rs_day_a", version = "0.1.0" }
+rs_day_b = { path = "../rs_day_b", version = "0.1.0" }
+rs_day_c = { path = "../rs_day_c", version = "0.1.0" }
+rs_day_d = { path = "../rs_day_d", version = "0.1.0" }
