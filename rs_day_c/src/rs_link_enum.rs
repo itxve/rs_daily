@@ -55,7 +55,7 @@ impl Node {
 }
 
 #[test]
-fn prnt_node() {
+fn test_node() {
     // 创建一个空链表
     let mut node = Node::new();
 

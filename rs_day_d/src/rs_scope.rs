@@ -1,7 +1,6 @@
 #![allow(dead_code)]
-///reference https://rustwiki.org/zh-CN/rust-by-example/variable_bindings/scope.html
 #[test]
-fn prnt_scope() {
+fn test_scope() {
     // 此绑定生存于 main 函数中
     let long_lived_binding = 1;
 

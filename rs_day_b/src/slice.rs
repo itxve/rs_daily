@@ -1,7 +1,5 @@
-#![feature(layout_for_ptr)]
+#![allow(dead_code)]
 use std::mem;
-
-/// reference https://rustwiki.org/zh-CN/rust-by-example/primitives/array.html
 
 // 此函数借用一个 slice
 fn analyze_slice(slice: &[i32]) {
@@ -9,7 +7,7 @@ fn analyze_slice(slice: &[i32]) {
     println!("the slice has {} elements", slice.len());
 }
 #[test]
-fn prnt_slice() {
+fn test_slice() {
     analyze_slice(&[100, 23, 88, 72]);
     // 定长数组（类型标记是多余的）
     let xs: [i32; 10] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];

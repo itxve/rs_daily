@@ -90,7 +90,7 @@ impl Display for List {
     }
 }
 #[test]
-fn prnt_list() {
+fn test_list() {
     //[1 🐰 3 🐰 99]
     println!("{}", List(vec![1, 3, 99,]));
 }
@@ -110,7 +110,7 @@ impl Display for RGB {
 // RGB (0, 3, 254) 0x0003FE
 // RGB (0, 0, 0) 0x000000
 #[test]
-fn prnt_rgb() {
+fn test_rgb() {
     println!("{}", RGB(128, 255, 90));
     println!("{}", RGB(0, 3, 254));
     println!("{}", RGB(0, 0, 0));

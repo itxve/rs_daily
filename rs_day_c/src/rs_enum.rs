@@ -1,6 +1,4 @@
 #![allow(dead_code)]
-///reference https://rustwiki.org/zh-CN/rust-by-example/custom_types/enum.html
-
 // WebEvent
 enum WebEvent {
     PageLoad,
@@ -26,7 +24,7 @@ fn dispatch(event: &WebEvent) {
     }
 }
 #[test]
-fn prnt_enum() {
+fn test_enum() {
     let page_load = WebEvent::PageLoad;
     dispatch(&page_load);
     let page_un_load = WebEvent::PageUnLoad;

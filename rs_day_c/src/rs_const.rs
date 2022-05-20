@@ -17,7 +17,7 @@ fn x_value() -> usize {
 }
 
 #[test]
-fn prnt_const() {
+fn test_const() {
     use std::ptr;
 
     println!("{:?}", FOO);

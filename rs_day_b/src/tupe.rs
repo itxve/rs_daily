@@ -1,7 +1,6 @@
+#![allow(dead_code)]
+///reference
 use std::fmt::Display;
-
-/// reference https://rustwiki.org/zh-CN/rust-by-example/primitives/tuples.html
-
 /// 右上 - 左下对角线上的两元素交换
 /// ( 1.1 1.2 )
 /// ( 2.1 2.2 )
@@ -31,7 +30,7 @@ impl Display for Matrix {
 }
 
 #[test]
-fn prnt_tuple() {
+fn test_tuple() {
     // 包含各种不同类型的元组
     let tuple = (
         1u8, 2u16, 3u32, 4u64, -1i8, -2i16, -3i32, -4i64, 0.1f32, 0.2f64, 'a', true,

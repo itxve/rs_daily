@@ -1,6 +1,4 @@
 #![allow(dead_code)]
-///reference https://rustwiki.org/zh-CN/rust-by-example/custom_types/structs.html
-/// 一些符号 reference https://rustwiki.org/zh-CN/book/appendix-02-operators.html
 
 #[derive(Debug)]
 struct Person {
@@ -54,7 +52,7 @@ fn square(point: &Point, w: f32) -> Rectangle {
 }
 
 #[test]
-fn prnt_struct() {
+fn test_struct() {
     let person = Person {
         age: 19,
         name: String::from("菜菜"),

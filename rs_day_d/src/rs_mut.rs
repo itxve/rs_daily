@@ -1,7 +1,6 @@
 #![allow(dead_code)]
-///reference https://rustwiki.org/zh-CN/rust-by-example/variable_bindings/mut.html
 #[test]
-fn main() {
+fn test_mut() {
     let _immutable_binding = 1;
     let mut mutable_binding = 1;
 

@@ -1,7 +1,6 @@
 #![allow(dead_code)]
-///reference https://rustwiki.org/zh-CN/rust-by-example/variable_bindings/declare.html
 #[test]
-fn main() {
+fn test_initialize() {
     // 声明一个变量绑定
     let mut a_binding;
     {

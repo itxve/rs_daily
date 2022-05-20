@@ -1,6 +1,5 @@
-/// reference https://rustwiki.org/zh-CN/rust-by-example/primitives/literals.html
 #[test]
-fn prnt() {
+fn test_literal() {
     // 整数相加
     println!("1 + 2 = {}", 1u32 + 2);
 
