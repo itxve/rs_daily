@@ -10,4 +10,5 @@ members = [
   "rs_day_g",
   "rs_day_h",
   "rs_day_i",
+  "rs_day_j",
 ]
