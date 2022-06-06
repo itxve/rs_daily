@@ -1,0 +1,1 @@
+rustc ./src/run.rs --extern ffi=./netest_k/liblib.rlib --edition=2018 && ./run 
