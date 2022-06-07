@@ -1,16 +1,2 @@
 [workspace]
-members = [
-  "rs_day",
-  "rs_day_a",
-  "rs_day_b",
-  "rs_day_c",
-  "rs_day_d",
-  "rs_day_e",
-  "rs_day_f",
-  "rs_day_g",
-  "rs_day_h",
-  "rs_day_i",
-  "rs_day_j",
-  "rs_day_k",
-  "rs_day_k/netest_k",
-]
+members = ["rs_day", "rs_day_*", "rs_day_k/netest_k"]
