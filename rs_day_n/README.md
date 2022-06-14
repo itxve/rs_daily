@@ -1,12 +1,16 @@
-# [属性](https://rustwiki.org/zh-CN/rust-by-example/attribute.html)
+# [泛型](https://rustwiki.org/zh-CN/rust-by-example/generics.html)
 
 |        仓库文件索引          |         原文地址         |   
 |----------------------|:-----------------------:| 
-| [死代码 dead_code](./src/dead_code.rs) |  [原文](https://rustwiki.org/zh-CN/rust-by-example/attribute/unused.html)| 
-| [crate](./src/lib.rs) |  [原文](https://rustwiki.org/zh-CN/rust-by-example/attribute/crate.html) |
-| [cfg](./src/cfg.rs) |  [原文](https://rustwiki.org/zh-CN/rust-by-example/attribute/cfg.html) |
-| [customer cfg](./src/customer_cfg.rs) |  [原文](https://rustwiki.org/zh-CN/rust-by-example/attribute/cfg.html) |
-| [cfg attr](./src/cfg_attr.rs) |  [原文](https://doc.rust-lang.org/reference/conditional-compilation.html#the-cfg_attr-attribute) |
+| [泛型](./src/lib.rs) |  [原文](https://rustwiki.org/zh-CN/rust-by-example/generics/gen_fn.html)| 
+| [fn](./src/generics_fn.rs) |  [原文](https://rustwiki.org/zh-CN/rust-by-example/generics/gen_fn.html)| 
+| [impl](./src/generic_impl.rs) |  [原文](https://rustwiki.org/zh-CN/rust-by-example/generics/impl.html)| 
+| [trait](./src/generic_trait.rs) |  [原文](https://rustwiki.org/zh-CN/rust-by-example/generics/gen_trait.html)| 
+| [约束](./src/g_bounds.rs) |  [原文](https://rustwiki.org/zh-CN/rust-by-example/generics/bounds.html)| 
+| [new type](./src/new_type.rs) |  [原文](https://rustwiki.org/zh-CN/rust-by-example/generics/new_types.html)| 
+| [关联类型](./src/assoc.rs) |  [原文](https://rustwiki.org/zh-CN/rust-by-example/generics/assoc_items/types.html)| 
+| [虚类型参数](./src/phantom.rs) |  [原文](https://rustwiki.org/zh-CN/rust-by-example/generics/phantom.html)| 
+
 
 
 

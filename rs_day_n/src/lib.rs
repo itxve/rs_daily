@@ -1,23 +1,34 @@
-// 这个 crate 是一个库文件
-#![crate_type = "lib"]
-// 库的名称为 qw
-#![crate_name = "qw"]
+#![allow(dead_code)]
 
-mod cfg;
-mod cfg_attr;
-mod customer_cfg;
-mod dead_code;
+use std::fmt::Display;
 
-pub fn public_function() {
-    println!("called rary's `public_function()`");
+mod assoc;
+mod g_bounds;
+mod g_fn;
+mod g_impl;
+mod g_trait;
+mod new_type;
+mod phantom;
+
+#[derive(Debug)]
+struct Aa<T>(T);
+
+impl<T: Display> Aa<T> {
+    fn print(&self) {
+        match self {
+            Aa(t) => {
+                println!("T value is : [{}]", t)
+            }
+        }
+    }
 }
 
-fn private_function() {
-    println!("called rary's `private_function()`");
+fn generic(_s: Aa<&str>) {
+    _s.print();
 }
 
-pub fn indirect_access() {
-    print!("called rary's `indirect_access()`, that\n> ");
-
-    private_function();
+#[test]
+fn main_() {
+    Aa(123).print();
+    generic(Aa("#@123@#"));
 }
