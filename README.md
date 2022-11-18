@@ -1,9 +1,9 @@
-# Rust 菜鸟之旅
-# 该仓库按照Rust Example目录提交
+# Rust 之旅
+# 该仓库按照Rust Example目录学习提交
 [Rust Example](https://rustwiki.org/zh-CN/rust-by-example/)
 
 
-|         章节          |         完成时间         |
+|         章节          |         时间         |
 |----------------------|:-----------------------:|
 | [Hello World](./rs_day_a) |  2022-05-16 | 
 | [原生类型](./rs_day_b) |  2022-05-17 | 
@@ -23,3 +23,4 @@
 | [特质 trait](./rs_day_p) |  2022-07-14| 
 | [macro_rules](./rs_day_q/) |  2022-07-25| 
 | [错误处理](./rs_day_r/) |  2022-09-26| 
+| [标准库类型](./rs_day_s/) |  2022-11-18| 

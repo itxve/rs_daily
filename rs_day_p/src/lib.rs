@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+
 struct Sheep {
     naked: bool,
     name: &'static str,
